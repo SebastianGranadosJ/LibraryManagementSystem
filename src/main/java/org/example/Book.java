@@ -15,7 +15,18 @@ public class Book {
 
     // Getters and setters
     // ...
-
+    public void setId(String id){
+        this.id = id;
+    } 
+    public void setTitle(String title){
+        this.title = title;
+    } 
+    public void setAuthor(String author){
+        this.author = author;
+    } 
+    public void setIsAvailable(boolean isAvailable){
+        isAvailable.id = isAvailable;
+    } 
     // Additional methods
     public void markAsUnavailable() {
         this.isAvailable = false;
