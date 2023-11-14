@@ -25,8 +25,15 @@ public class Book {
         this.author = author;
     } 
     public void setIsAvailable(boolean isAvailable){
-        isAvailable.id = isAvailable;
+        this.isAvailable = isAvailable;
     } 
+    public String getTitle() {
+        return title;
+    }
+    public String getAuthor() {
+        return author;
+    }
+   
     // Additional methods
     public void markAsUnavailable() {
         this.isAvailable = false;

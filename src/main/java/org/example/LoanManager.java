@@ -74,9 +74,20 @@ public class LoanManager {
     public List<Book> getBooks() {
         return books;
     }
-
+    public LibraryDatabase getLibraryDatabase() {
+        return libraryDatabase;
+    }
     public List<Student> getStudents() {
         return students;
+    }
+    public void setStudents(List<Student> students) {
+        this.students = students;
+    }
+    public void setBooks(List<Book>  books) {
+        this.books = books;
+    }
+    public void setLibraryDatabase(LibraryDatabase  libraryDatabase) {
+        this.libraryDatabase = libraryDatabase;
     }
 }
 
